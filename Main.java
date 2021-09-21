@@ -1,8 +1,8 @@
 class Main {
   public static void main(String[] args) {
-    String msg = "";
-    msg += "Hello ";
-    msg += "World!";
-    System.out.println(msg);
+    System.out.println("Hello World");
+    int x;
+    x = 6;
+    System.out.println(x * x * 3.14);
   }
 }
