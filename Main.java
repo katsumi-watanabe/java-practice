@@ -1,8 +1,8 @@
-class Main {
+public class Main {
   public static void main(String[] args) {
-    System.out.println("Hello World");
-    int x;
-    x = 6;
-    System.out.println(x * x * 3.14);
+    final double PI = 3.14;
+    int pie = 5;
+    System.out.println("半径" + pie + "cmのパイの面積は、");
+    System.out.println(pie * pie * PI);
   }
 }
