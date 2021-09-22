@@ -3,10 +3,24 @@ public class Main {
   // private static final Scanner SCANNER = new java.util.Scanner(System.in);
 
   public static void main(String[] args) {
-    // 3-7
-    for (int i = 0; i < 10; i++) {
-      System.out.println("こんにちは");
+    // 3-9
+    for (int i = 1; i < 10; i++) {
+      for (int j = 1; j < 10; j++) {
+        System.out.println(i * j); // 掛け算の結果を出力
+        System.out.println(" "); // 空白を出力
+      }
+      System.out.println(""); // 改行を出力
     }
+
+    // 3-8
+    // for (int i = 0; i < 3; i++) {
+    // System.out.println("現在" + (i + 1) + "周目→");
+    // }
+
+    // 3-7
+    // for (int i = 0; i < 10; i++) {
+    // System.out.println("こんにちは");
+    // }
 
     // 3-6
     // System.out.println("あなたの今日の運勢を占います");
