@@ -3,11 +3,33 @@ public class Main {
   // private static final Scanner SCANNER = new java.util.Scanner(System.in);
 
   public static void main(String[] args) {
+    // 文字数をカウントするときはlengthの後に()をつける
+    // String str = "Javaで開発";
+    // System.out.println(str.length());
+
+    // 4-17
+    // int[] array = { 1, 2, 3 };
+    // array = null;
+    // array[0] = 10;
+
+    // 4-16
+    // boolean judge = true;
+    // if (judge == true) {
+    // int[] array = { 1, 2, 3 };
+    // }
+
+    // 4-15
+    // int[] arrayA = { 1, 2, 3 };
+    // int[] arrayB;
+    // arrayB = arrayA;
+    // arrayB[0] = 100;
+    // System.out.println(arrayA[0]);
+
     // 4-14
-    int[] scores = { 20, 30, 40, 50, 80 };
-    for (int value : scores) {
-      System.out.println(value);
-    }
+    // int[] scores = { 20, 30, 40, 50, 80 };
+    // for (int value : scores) {
+    // System.out.println(value);
+    // }
 
     // 4-13
     // int[] scores = { 20, 30, 40, 50, 80 };
