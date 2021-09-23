@@ -3,15 +3,67 @@ public class Main {
   // private static final Scanner SCANNER = new java.util.Scanner(System.in);
 
   public static void main(String[] args) {
-    // 4-11
+    // 4-14
     int[] scores = { 20, 30, 40, 50, 80 };
-    int count = 0;
-    for (int i = 0; i < scores.length; i++) {
-      if (scores[i] >= 50) {
-        count++;
-      }
+    for (int value : scores) {
+      System.out.println(value);
     }
-    System.out.println("50点以上の科目の数は：" + count);
+
+    // 4-13
+    // int[] scores = { 20, 30, 40, 50, 80 };
+    // for (int i = 0; i < scores.length; i++) {
+    // System.out.println(scores[i]);
+    // }
+
+    // 4-12-1
+    // int[] seq = new int[10];
+
+    // // 塩基配列をランダムに生成
+    // for (int i = 0; i < seq.length; i++) {
+    // seq[i] = new java.util.Random().nextInt(4);
+    // }
+
+    // // 生成した塩基配列の記号を表示
+    // for (int i = 0; i < seq.length; i++) {
+    // char[] base = { 'A', 'T', 'G', 'C' };
+    // System.out.println(base[seq[i]] + " ");
+    // }
+
+    // 4-12
+    // int[] seq = new int[10];
+
+    // // 塩基配列をランダムに生成
+    // for (int i = 0; i < seq.length; i++) {
+    // seq[i] = new java.util.Random().nextInt(4);
+    // }
+
+    // // 生成した塩基配列の記号を表示
+    // for (int i = 0; i < seq.length; i++) {
+    // switch (seq[i]) {
+    // case 0:
+    // System.out.println("A ");
+    // break;
+    // case 1:
+    // System.out.println("T ");
+    // break;
+    // case 2:
+    // System.out.println("G ");
+    // break;
+    // case 3:
+    // System.out.println("C ");
+    // break;
+    // }
+    // }
+
+    // 4-11
+    // int[] scores = { 20, 30, 40, 50, 80 };
+    // int count = 0;
+    // for (int i = 0; i < scores.length; i++) {
+    // if (scores[i] >= 50) {
+    // count++;
+    // }
+    // }
+    // System.out.println("50点以上の科目の数は：" + count);
 
     // 4-10
     // int[] scores = { 20, 30, 40, 50, 80 };
