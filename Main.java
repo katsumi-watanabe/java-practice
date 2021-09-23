@@ -3,10 +3,37 @@ public class Main {
   // private static final Scanner SCANNER = new java.util.Scanner(System.in);
 
   public static void main(String[] args) {
+    // 4-10
+    int[] scores = { 20, 30, 40, 50, 80 };
+    int sum = 0;
+    for (int i = 0; i < scores.length; i++) {
+      sum += scores[i];
+    }
+    int avg = sum / scores.length;
+    System.out.println("合計点：" + sum);
+    System.out.println("平均点：" + avg);
+
+    // 4-9
+    // int[] scores = { 20, 30, 40, 50, 80 };
+    // for (int i = 0; i < scores.length; i++) {
+    // System.out.println(scores[i]);
+    // }
+
+    // 4-8
+    // int[] scores = { 20, 30, 40, 50, 80 };
+    // int sum = scores[0] + scores[1] + scores[2] + scores[3] + scores[4];
+    // int avg = sum / scores.length;
+    // System.out.println("合計点：" + sum);
+    // System.out.println("平均点：" + avg);
+
+    // 4-6
+    // int[] scores = new int[5];
+    // System.out.println(scores[0]);
+
     // 4-5
-    int[] scores = new int[5];
-    scores[1] = 30;
-    System.out.println(scores[1]);
+    // int[] scores = new int[5];
+    // scores[1] = 30;
+    // System.out.println(scores[1]);
 
     // 4-4
     // int[] scores = new int[5];
