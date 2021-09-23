@@ -3,6 +3,16 @@ public class Main {
   // private static final Scanner SCANNER = new java.util.Scanner(System.in);
 
   public static void main(String[] args) {
+    // 4-5
+    int[] scores = new int[5];
+    scores[1] = 30;
+    System.out.println(scores[1]);
+
+    // 4-4
+    // int[] scores = new int[5];
+    // int num = scores.length;
+    // System.out.println("要素の数" + num);
+
     // 3-9
     // for (int i = 1; i < 10; i++) {
     // for (int j = 1; j < 10; j++) {
