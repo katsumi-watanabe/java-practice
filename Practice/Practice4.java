@@ -1,5 +1,7 @@
 package Practice;
 
+import java.util.Scanner;
+
 public class Practice4 {
   public static void main(String[] args) {
 
@@ -35,11 +37,15 @@ public class Practice4 {
     // 4-4
     int[] numbers = { 3, 4, 9 };
     System.out.println("1桁の数字を入力してください");
-    int input = new java.util.Scanner(System.in).nextInt();
+    int input = extracted().nextInt();
     for (int x : numbers) {
       if (input == x) {
         System.out.println("あたり！");
       }
     }
+  }
+
+  private static Scanner extracted() {
+    return new java.util.Scanner(System.in);
   }
 }
