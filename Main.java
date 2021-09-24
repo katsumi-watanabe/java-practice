@@ -3,6 +3,10 @@ public class Main {
   // private static final Scanner SCANNER = new java.util.Scanner(System.in);
 
   public static void main(String[] args) {
+    int[][] scores = { { 40, 50, 60 }, { 80, 60, 70 } };
+    System.out.println(scores.length);
+    System.out.println(scores[0].length);
+
     // 文字数をカウントするときはlengthの後に()をつける
     // String str = "Javaで開発";
     // System.out.println(str.length());
