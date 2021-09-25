@@ -2,16 +2,33 @@
 public class Main {
   // private static final Scanner SCANNER = new java.util.Scanner(System.in);
 
+  // 5-3
+  public static void methodA() {
+    System.out.println("methodA");
+    methodB();
+  }
+
+  public static void methodB() {
+    System.out.println("methodB");
+  }
+
   public static void main(String[] args) {
-    System.out.println("メソッドを呼び出します");
-    hello();
-    System.out.println("メソッドの呼び出しが終わりました");
+    methodA();
   }
 
-  public static void hello() {
-    System.out.println("マルちゃん、こんにちは");
-  }
+  // 5-2
+  // public static void main(String[] args) {
+  // System.out.println("メソッドを呼び出します");
+  // hello();
+  // System.out.println("メソッドの呼び出しが終わりました");
+  // }
 
+  // public static void hello() {
+  // System.out.println("マルちゃん、こんにちは");
+  // System.out.println("mainさん、こんにちは");
+  // }
+
+  // 5-2以前
   // public static void main(String[] args) {
   // System.out.println("メソッドを呼び出します");
   // hello();
