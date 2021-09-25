@@ -1,11 +1,21 @@
 
 public class Main {
   // private static final Scanner SCANNER = new java.util.Scanner(System.in);
+
+  public static void main(String[] args) {
+    System.out.println("メソッドを呼び出します");
+    hello();
+    System.out.println("メソッドの呼び出しが終わりました");
+  }
+
   public static void hello() {
     System.out.println("マルちゃん、こんにちは");
   }
 
   // public static void main(String[] args) {
+  // System.out.println("メソッドを呼び出します");
+  // hello();
+  // System.out.println("メソッドの呼び出しが終わりました");
   // int[][] scores = { { 40, 50, 60 }, { 80, 60, 70 } };
   // System.out.println(scores.length);
   // System.out.println(scores[0].length);
