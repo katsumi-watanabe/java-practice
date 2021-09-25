@@ -2,19 +2,65 @@
 public class Main {
   // private static final Scanner SCANNER = new java.util.Scanner(System.in);
 
-  // 5-3
-  public static void methodA() {
-    System.out.println("methodA");
-    methodB();
-  }
-
-  public static void methodB() {
-    System.out.println("methodB");
+  // 5-8
+  public static int add(int x, int y) {
+    int ans = x + y;
+    return ans;
   }
 
   public static void main(String[] args) {
-    methodA();
+    System.out.println(add(add(10, 20), add(30, 40)));
   }
+
+  // 5-7
+  // public static int add(int x, int y) {
+  // int ans = x + y;
+  // return ans;
+  // }
+
+  // public static void main(String[] args) {
+  // int ans = add(100, 10);
+  // System.out.println("100 + 10 = " + ans);
+  // }
+
+  // 5-5
+  // public static void main(String[] args) {
+  // add(100, 20);
+  // add(200, 50);
+  // }
+
+  // // 複数の値を受け取るaddメソッド
+  // public static void add(int x, int y) {
+  // int ans = x + y;
+  // System.out.println(x + "+" + y + "=" + ans);
+  // }
+
+  // 5-4
+  // public static void main(String[] args) {
+  // System.out.println("メソッドを呼び出します");
+  // hello("aaaa");
+  // hello("iiii");
+  // hello("uuuu");
+  // System.out.println("メソッドの呼び出しが終わりました");
+  // }
+
+  // public static void hello(String name) {
+  // System.out.println(name + "さん、こんにちは");
+  // }
+
+  // 5-3
+  // public static void methodA() {
+  // System.out.println("methodA");
+  // methodB();
+  // }
+
+  // public static void methodB() {
+  // System.out.println("methodB");
+  // }
+
+  // public static void main(String[] args) {
+  // methodA();
+  // }
 
   // 5-2
   // public static void main(String[] args) {
