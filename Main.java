@@ -2,15 +2,60 @@
 public class Main {
   // private static final Scanner SCANNER = new java.util.Scanner(System.in);
 
-  // 5-8
-  public static int add(int x, int y) {
-    int ans = x + y;
-    return ans;
+  // 5-12
+  public static void printArray(int[] array) {
+    for (int element : array) {
+      System.out.println(element);
+    }
   }
 
   public static void main(String[] args) {
-    System.out.println(add(add(10, 20), add(30, 40)));
+    int[] array = { 1, 2, 3 };
+    printArray(array); // 配列を渡す
   }
+
+  // 5-11
+  // public static int add(int x, int y) {
+  // return x + y;
+  // }
+
+  // public static int add(int x, int y, int z) {
+  // return x + y + z;
+  // }
+
+  // public static void main(String[] args) {
+  // System.out.println("10+20=" + add(10, 20));
+  // System.out.println("10+20+30=" + add(10, 20, 30));
+  // }
+
+  // 5-10
+  // public static int add(int x, int y) {
+  // return x + y;
+  // }
+
+  // public static double add(double x, double y) {
+  // return x + y;
+  // }
+
+  // public static String add(String x, String y) {
+  // return x + y;
+  // }
+
+  // public static void main(String[] args) {
+  // System.out.println(add(10, 20));
+  // System.out.println(add(3.5, 2.7));
+  // System.out.println(add("Hello", "World"));
+  // }
+
+  // 5-8
+  // public static int add(int x, int y) {
+  // int ans = x + y;
+  // return ans;
+  // }
+
+  // public static void main(String[] args) {
+  // System.out.println(add(add(10, 20), add(30, 40)));
+  // }
 
   // 5-7
   // public static int add(int x, int y) {
