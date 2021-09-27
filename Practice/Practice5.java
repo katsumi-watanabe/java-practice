@@ -70,6 +70,57 @@ public class Practice5 {
   // return area;
   // }
 
+  // 5-1復習
+  // public static void introduceOneself() {
+  // String name = "文字列";
+  // int age = 33;
+  // double height = 190;
+  // char eto = '寅';
+  // System.out.println(name);
+  // System.out.println(age);
+  // System.out.println(height);
+  // System.out.println(eto);
+  // }
+
+  // public static void main(String[] args) {
+  // introduceOneself();
+  // }
+
+  // 5-2復習
+  // public static void main(String[] args) {
+  // String address = "アドレスです";
+  // String title = "タイトルです";
+  // String text = "本文";
+  // email(address, title, text);
+  // }
+
+  // public static void email(String address, String title, String text) {
+  // System.out.println(address);
+  // System.out.println(title);
+  // System.out.println(text);
+  // }
+
+  // 5-3復習
+  // public static void main(String[] args) {
+  // String address = "アドレスです";
+  // String title = "タイトルです";
+  // String text = "本文";
+  // email(address, title, text);
+  // email(address, text);
+  // }
+
+  // public static void email(String address, String title, String text) {
+  // System.out.println(address);
+  // System.out.println(title);
+  // System.out.println(text);
+  // }
+
+  // public static void email(String address, String text) {
+  // System.out.println(address);
+  // System.out.println("件名：無題");
+  // System.out.println(text);
+  // }
+
   // 5-4復習
   public static void main(String[] args) {
     double triangleArea = calcTriangleArea(10.0, 5.0);
@@ -79,12 +130,12 @@ public class Practice5 {
   }
 
   public static double calcTriangleArea(double bottom, double height) {
-    double area = (bottom * height / 2);
+    double area = (bottom * height) / 2;
     return area;
   }
 
   public static double calcCircleArea(double radius) {
-    double area = (radius * radius);
+    double area = radius * radius * 3.14;
     return area;
   }
 }
