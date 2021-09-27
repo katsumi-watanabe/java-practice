@@ -1,4 +1,4 @@
-package Practice;
+package practice;
 
 public class Practice1 {
   // 1-1
