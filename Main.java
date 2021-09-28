@@ -2,6 +2,15 @@
 public class Main {
   // private static final Scanner SCANNER = new java.util.Scanner(System.in);
 
+  // 6-10
+  public static void main(String[] args) {
+    int[] heights = { 172, 149, 152, 191, 155 };
+    java.util.Arrays.sort(heights);
+    for (int h : heights) {
+      System.out.println(h);
+    }
+  }
+
   // 5-14
   // public static int[] makeArray(int size) {
   // int[] newArray = new int[size];
