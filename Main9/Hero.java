@@ -16,6 +16,6 @@ public class Hero {
   }
 
   public Hero() {
-    this.name = "ダミー";
+    this("ダミー");
   }
 }
