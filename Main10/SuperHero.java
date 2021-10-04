@@ -1,6 +1,11 @@
 package Main10;
 
 public class SuperHero extends Hero {
+  // 10-10
+  public SuperHero() {
+    System.out.println("SuperHeroのコンストラクタが動作");
+  }
+
   // 10-3
   boolean flying;
 
@@ -20,4 +25,12 @@ public class SuperHero extends Hero {
   public void run() {
     System.out.println(this.name + "は撤退した");
   }
+
+  // 10-8,9
+  // public void attack(Matango m) {
+  // super.attack(m);
+  // if (this.flying) {
+  // super.attack(m);
+  // }
+  // }
 }
