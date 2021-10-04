@@ -3,6 +3,7 @@ package Main10;
 public class SuperHero extends Hero {
   // 10-10
   public SuperHero() {
+    super();
     System.out.println("SuperHeroのコンストラクタが動作");
   }
 

@@ -5,7 +5,10 @@ public class Main {
     // 10-10
     // Hero h = new Hero();
     // h.run();
-    SuperHero sh = new SuperHero();
+    // SuperHero sh = new SuperHero();
     // sh.run();
+
+    // 10-11
+    Weapon w = new Weapon();
   }
 }
