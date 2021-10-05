@@ -13,4 +13,8 @@ public class Item {
     this.name = name;
     this.price = price;
   }
+
+  public int getDamage() {
+    return 10;
+  }
 }
