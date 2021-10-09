@@ -1,8 +1,11 @@
 package Mains8;
 
+import Mains9.Sword;
+
 public class Hero {
-  String name;
-  int hp;
+  public String name;
+  public int hp;
+  public Sword sword;
 
   public void attack() {
 
