@@ -44,7 +44,23 @@ public class Main {
     // w.heal(h2);
 
     // 9-7
-    String s = new String("こんにちは");
-    System.out.println(s);
+    // String s = new String("こんにちは");
+    // System.out.println(s);
+
+    // 9-9
+    // Mains9.Hero = new Hero();
+    // System.out.println(h.hp);
+
+    // 9-11
+    // Hero h = new Hero("ミナト");
+
+    // System.out.println(h.hp);
+    // System.out.println(h.name);
+
+    // 9-13
+    Hero h1 = new Hero("ミナト");
+    System.out.println(h1.name);
+    Hero h2 = new Hero();
+    System.out.println(h2.name);
   }
 }

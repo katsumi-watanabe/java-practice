@@ -7,6 +7,12 @@ public class Hero {
   public int hp;
   public Sword sword;
 
+  public Hero() {
+  }
+
+  public Hero(String string) {
+  }
+
   public void attack() {
 
   }

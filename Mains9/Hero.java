@@ -9,4 +9,15 @@ public class Hero {
     System.out.println(this.name + "は攻撃した");
     System.out.println("敵に5ポイントのダメージを与えた！");
   }
+
+  // 9-10
+  public Hero(String name) {
+    this.hp = 100; // hpフィールドを100で初期化
+    this.name = name; // 引数で値でnameフィールドを初期化
+  }
+
+  public Hero() {
+    this.hp = 100;
+    this.name = "ダミー";
+  }
 }
